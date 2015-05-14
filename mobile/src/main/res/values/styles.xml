@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="android:Theme.Material.NoActionBar">
+
+        <item name="android:colorPrimary">@color/primary</item>
+        <item name="android:colorPrimaryDark">@color/primaryDark</item>
+        <item name="android:colorAccent">@color/accent</item>
+
+        <!-- Window stuff -->
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+
+        <!--<item name="android:textColorPrimary">#fff</item>-->
+
+    </style>
+
+    <style name="menu_labels_style">
+        <item name="android:background">@drawable/fab_label_background</item>
+        <item name="android:textColor">@color/grey_white_1000</item>
+    </style>
+
+    <style name="titleText" parent="AppTheme">
+        <item name="android:textColor">@color/primaryTextLight</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+</resources>
