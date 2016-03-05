@@ -4,7 +4,7 @@
 
     <!-- Background Colors -->
     <color name="primary">@color/grey_900</color>
-    <color name="primaryDark">@color/grey_black_1000</color>
+    <color name="primaryDark">@color/primary</color>
     <color name="accent">@color/red_400</color>
     <color name="background">#303030</color>
 
@@ -15,8 +15,9 @@
     <color name="secondaryTextLight">@android:color/secondary_text_dark</color>
     <color name="secondaryTextDark">@android:color/secondary_text_light</color>
 
-    <!-- Menu stuff color -->
-    <color name="black_semi_transparent">#B2000000</color>
+    <!-- Menu stuff color
+    <color name="black_semi_transparent">#B2000000</color>-->
+    <color name="black_semi_transparent">#000</color>
     <color name="menu_background">#e5e5e5</color>
     <color name="half_black">#808080</color>
     <color name="white">#fafafa</color>
@@ -29,7 +30,7 @@
 
     <!-- Card Color -->
     <color name="default_card">@color/grey_800</color>
-    <color name="ship_card">@color/red_500</color>
+    <color name="ship_card">@color/red_400</color>
     <color name="attack_card">@color/deep_orange_500</color>
     <color name="kicker_card">@color/amber_500</color>
     <color name="reinforcements_card">@color/green_500</color>

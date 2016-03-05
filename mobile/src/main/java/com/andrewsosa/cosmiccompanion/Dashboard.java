@@ -3,6 +3,7 @@ package com.andrewsosa.cosmiccompanion;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.widget.DrawerLayout;
 import android.view.Gravity;
@@ -213,12 +214,12 @@ public class Dashboard extends Activity implements Toolbar.OnMenuItemClickListen
             if (card.getCardValue() != null) cardValue.setText(tempValue);
 
             // Assign color
-            int bg = R.color.default_card;
-            if (type.equals("Ships")) bg = R.color.ship_card;
-            if (type.equals("Attack")) bg = R.color.attack_card;
-            if (type.equals("Kicker")) bg = R.color.kicker_card;
-            if (type.equals("Reinforcements")) bg = R.color.reinforcements_card;
-            if (type.equals("Bonus")) bg = R.color.bonus_card;
+            int bg = getResources().getColor(R.color.default_card);
+            if (type.equals("Ships")) bg = getResources().getColor(R.color.ship_card);
+            if (type.equals("Attack")) bg = getResources().getColor(R.color.attack_card);
+            if (type.equals("Kicker")) bg = getResources().getColor(R.color.kicker_card);
+            if (type.equals("Reinforcements")) bg = getResources().getColor(R.color.reinforcements_card);
+            if (type.equals("Bonus")) bg = getResources().getColor(R.color.bonus_card);
             cardLayout.setBackgroundColor(bg);
 
 
